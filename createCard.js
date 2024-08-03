@@ -19,6 +19,7 @@ d3.csv("info.csv").then(function(data) {
         card.appendChild(description);
 
         //May want the links to open in new tab
+        //I should have the entire card be the link, not just the image
         var link = document.createElement('a');
         link.href = d.image_link; 
         link.appendChild(img); 
