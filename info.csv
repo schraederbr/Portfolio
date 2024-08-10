@@ -1,5 +1,5 @@
-title,description,image_path,image_link
-Atomas Arduboy,"Atomas Arduboy is a game for Arduboy, a credit card sized game system.",images/atomas.png,"https://github.com/schraederbr/Atomas-Arduboy"
-Bulk Trash Map of Austin TX,"This app creates a map of bulk trash collection in the Austin TX metro area.",images/austinTrashSmall.png,"https://www.google.com/maps/d/u/0/edit?mid=1G9atJUTjtSqRfSzOCzbHC5-iRyM8vMA&usp=sharing"
-Atomas Arduboy,"Atomas Arduboy is a game for Arduboy, a credit card sized game system.",images/atomas.png,"https://github.com/schraederbr/Atomas-Arduboy"
-Atomas Arduboy,"Atomas Arduboy is a game for Arduboy, a credit card sized game system.",images/atomas.png,"https://github.com/schraederbr/Atomas-Arduboy"
+title,description,media_path,link
+Atomas Arduboy,"Atomas Arduboy is a game for Arduboy, a credit card sized game system.",media/atomasArduboy/video/tall.mp4,"https://github.com/schraederbr/Atomas-Arduboy"
+Bulk Trash Map of Austin TX,"This app creates a map of bulk trash collection in the Austin TX metro area.",media/austinTrash/austinTrashSmall.png,"https://www.google.com/maps/d/u/0/edit?mid=1G9atJUTjtSqRfSzOCzbHC5-iRyM8vMA&usp=sharing"
+Multiplayer Cow Counting Game Arduboy,"A two player game where you count cows in real life.",media/cowCounterArduboy/video/tall.mp4,"https://github.com/schraederbr/Atomas-Arduboy"
+Multiplayer Cow Counting Game Website,"A multiplayer game where you count cows in real life.",media/atomas.png,"https://github.com/schraederbr/Atomas-Arduboy"

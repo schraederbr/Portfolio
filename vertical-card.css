@@ -1,0 +1,83 @@
+/* styles.css */
+:root {
+    --card-width: 480px;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px; /* space between cards */
+}
+
+/* Maybe I should do horizontal cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* transition: 0.3s; */
+    width: var(--card-width);
+    max-width: var(--card-width); 
+    margin: 2% auto; /* top and bottom margins are 2%, left and right margins are auto */
+    border-radius: 18px;
+    flex: 2 2 auto;
+    padding: 2% 2%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.title {
+    font-size: 32px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+a:visited {
+    color: inherit; /* or any other color you prefer */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: var(--card-width);
+    height: var(--card-width);
+}
+/*
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 52px; this is max
+    }
+
+    .description {
+        font-size: 36px; this is max
+    }
+}
+*/
+
+video {
+    width: var(--card-width);
+    height: var(--card-width);
+    object-fit: cover; 
+    object-position: center top; 
+}
