@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="vertical-card.css">
-    <script src="d3.v5.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="cards"></div>
+    <header>
+        <h1>Your Name's Portfolio</h1>
+        <p>Welcome to my portfolio. Check out my projects below!</p>
+    </header>
 
-    <script src="createCard.js">
+    <main class="projects-container">
+        <div class="project-card">
+            <h2>Project Title 1</h2>
+            <p>Brief description of Project 1.</p>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://github.com/yourusername/project1" class="button">View Project</a>
+        </div>
         
-    </script>
-    
+        <div class="project-card">
+            <h2>Project Title 2</h2>
+            <p>Brief description of Project 2.</p>
+            <p><strong>Technologies:</strong> Python, Flask</p>
+            <a href="https://github.com/yourusername/project2" class="button">View Project</a>
+        </div>
+
+        <!-- Repeat project-card div for each project -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>
